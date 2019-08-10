@@ -32,8 +32,11 @@ npm run lint
 npm run build
 ```
 
-## commit the code to master (optional if not publishing the code)
+## commit the code to master
+git init is needed if not initialized 
+git push command is only optional if publishing the source code
 ```
+git init
 git add -A
 git commit -m "added config.js file and added deploy script"
 git remote add origin https://github.com/arkwu-share/vue-sample.git
