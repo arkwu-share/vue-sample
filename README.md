@@ -20,8 +20,11 @@ login to github and create a repo named vue-sample via https://github.com/new
 get the git link https://github.com/arkwu-share/vue-sample.git
 
 modify package.json file
-added    "homepage": "https://arkwu-share.github.io/vue-sample",
-added deploy under scripts    "deploy": "gh-pages -d dist",
+```
+  "homepage": "https://arkwu-share.github.io/vue-sample",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+```
 
 ## run the build
 ```
