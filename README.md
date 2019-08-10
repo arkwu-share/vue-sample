@@ -44,3 +44,10 @@ git push -u origin master
 ```
 npm run deploy
 ```
+
+## final check
+check Settings > GitHub Pages 
+the site should be published at the below address (the front part varies)
+https://arkwu-share.github.io/vue-sample/
+
+Source should be under gh-pages branch
